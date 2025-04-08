@@ -1,0 +1,80 @@
+.form-wrapper {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f5f7fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .form-wrapper h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .prediction-form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .prediction-form label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .prediction-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #0066cc;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #004a99;
+  }
+  
+  .results-section {
+    margin-top: 30px;
+    padding: 20px;
+    background: #eaf2ff;
+    border-radius: 10px;
+  }
+  
+  .results-section table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .results-section th,
+  .results-section td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .results-section th {
+    background-color: #dbe8ff;
+  }
+  
+  .error-text {
+    color: red;
+    font-weight: bold;
+  }
