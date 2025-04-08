@@ -30,7 +30,7 @@ function ModelCard({ title, modelName }) {
       };
 
       const response = await axios.post(
-        "http://127.0.0.1:5000/predict",
+        "https://ml-thrustpad-app.onrender.com/predict",
         payload
       );
       setResults(response.data);

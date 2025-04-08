@@ -21,7 +21,7 @@ function PredictionForm() {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://127.0.0.1:5000/predict", {
+      const response = await axios.post("https://ml-thrustpad-app.onrender.com/predict", {
         l: parseFloat(inputs.l),
         alpha_pv: parseFloat(inputs.alpha_pv),
         Load: parseFloat(inputs.Load),
